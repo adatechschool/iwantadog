@@ -1,5 +1,8 @@
-def main():
-   var = dog()
+from dog import *
 
-if "__name__" == "__main__":
+print("Va chercher!")
+def main():
+   x = Dog()
+
+if __name__ == "__main__":
    main()
